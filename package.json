@@ -1,0 +1,38 @@
+{
+  "name": "sms-messaggio",
+  "version": "1.0.0",
+  "description": "SMS Messaggio",
+  "main": "index.js",
+  "dependencies": {
+    "amqplib": "^0.5.5",
+    "fast-xml-parser": "^3.12.20",
+    "md5": "^2.2.1",
+    "moleculer": "^0.13.9",
+    "moleculer-db": "^0.8.1",
+    "moleculer-db-adapter-mongo": "^0.4.3",
+    "nconf": "^0.10.0",
+    "nconf-yaml": "^1.0.2",
+    "request": "^2.88.0",
+    "url": "^0.11.0",
+    "amqp-client": ""
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "@types/mocha": "^2.2.47",
+    "@types/node": "^9.3.0",
+    "eslint": "^5.15.3",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jest": "^22.4.1",
+    "eslint-plugin-no-use-extend-native": "^0.4.1",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-sonarjs": "^0.4.0",
+    "jest": "^24.5.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

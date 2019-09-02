@@ -1,0 +1,14 @@
+app:
+  name: sms-messaggio
+rabbit:
+  host: undefined # ENV rabbit_host
+  reconectionAttempts: 3
+  reconectionDelayTime: 5000
+  queueNames:
+    failedSms: sms-failed
+    smsMessaggio: sms-messaggio
+message:
+  from: undefined # ENV message_from
+  sendingMethod: sms
+  user: undefined # ENV message_user
+  secret: undefined # ENV message_secret
